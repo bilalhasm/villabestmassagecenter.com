@@ -1,0 +1,12 @@
+# Enable the rewrite engine
+RewriteEngine On
+
+# Secure your site by denying access to specific files or directories
+# Replace 'secret-directory' with the actual directory or file name you want to protect
+# Add additional lines for more files or directories
+# Example: RewriteRule ^private-directory/ - [F,L]
+
+RewriteRule ^secret-directory/ - [F,L]
+
+# Redirect all 404 errors to index.html
+ErrorDocument 404 https://villabestmassagecenter.com/
