@@ -9,4 +9,4 @@ RewriteEngine On
 RewriteRule ^secret-directory/ - [F,L]
 
 # Redirect all 404 errors to index.html
-ErrorDocument 404 https://villabestmassagecenter.com/
+ErrorDocument 404 https://RelaxSpaIslamabad.com/
